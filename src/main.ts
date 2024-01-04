@@ -3,8 +3,6 @@ import Handlebars from 'handlebars';
 import * as Components from './components';
 import * as Pages from './pages/index';
 
-console.log(Pages)
-
 const pages: Record<string, [string, object?]>  = {
     'login': [ Pages.LoginPage, {test: '123'} ],
     'register': [ Pages.Register ],
